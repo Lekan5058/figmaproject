@@ -28,7 +28,7 @@ body{
 }
 .hero{
     background-color: #FFF9F2 ;
-    height: 800px;
+    height: 700px;
     
     
     
@@ -171,14 +171,14 @@ body{
     .hero .imgrate{
         margin-left: 0px;
         width: 10%;
-        padding: 50px 70px;
+        padding: 60px 70px;
         
     } 
     
      .hero .img1{
      position: relative;
     margin-left: 200px;
-    bottom: 75px;
+    bottom: 85px;
     width: 120%;
     right: 0px;
     }
@@ -202,15 +202,18 @@ body{
      .main1 h4{
         margin-left: 10vh;
         font-size: 14px;
-        padding: 10px 55px;
+        padding: 1px 55px;
         font-weight: 700;
-        padding-top: 100px;
+        bottom: 30px;
+        position: relative;
     }
 
     .main1 img{
         margin-left: 25px;
         font-size: 14px;
         width: 325px;
+        bottom: 20px;
+        position: relative;
     }
 
 
