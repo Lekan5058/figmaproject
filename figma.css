@@ -1,0 +1,250 @@
+  
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.LOGO {
+    margin-left: 150px;
+    
+}
+.navUI{
+     margin-left: 350px;
+     justify-content: space-between;
+     gap: 100px;
+     font-size: 20px;
+     font-weight: 600;
+}
+
+.navbtn{
+    margin-right: 250px;
+    background-color:#6D1830 ;
+    color: white;
+    height: 50px;
+    border-radius: 8px;
+    width: 9%;
+}
+.hero{
+    background-color: #FFF9F2 ;
+    height: 600px;
+    
+    
+    
+}
+.hero h1{
+    margin-left: 150px;
+    padding-top: 200px;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: Lora;
+}
+.hero p{
+    margin-left: 150px;
+    font-family: Open Sans;
+    font-size: 22px;
+}
+.hero button{
+    margin-left: 150px;
+    position: absolute;
+    background-color:#6D1830 ;
+    color: white;
+    height: 50px;
+}
+
+
+.hero .imgrate{
+    margin-left: 290px;
+    position: relative;
+    width: 7%;
+    margin-top: 10px;
+} 
+
+.hero .img1{
+    position: relative;
+    margin-left: 430px;
+    bottom: 25px;
+    width: 120%;
+    right: 10px;
+}
+
+.Group11 img{
+   margin-left: 940px;
+   width: 588.59px;
+   position: relative;
+   bottom: 400px;
+   height: 555.84px
+
+
+
+}
+
+.main1 h4{
+    margin-left: 90vh;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.main1 img{
+    margin-left: 450px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.main2{
+    display: flex;
+}
+.main2 img{
+    margin-left: 100px;
+    margin-top: 120px;
+}
+.main2 h1{
+    font-family: Lora;
+    margin-top: 250px;
+    margin-left: 250px;
+    font-weight: 600;
+    font-size: 32px;
+
+
+}
+.cap{
+    font-family: Lora;
+    margin-left: 250px;
+    font-weight: 400 ;
+    font-size: 22px;
+
+}
+
+
+
+
+@media screen and (min-width:320px) and  (max-width:1000px){
+    .LOGO {
+        margin-left: 10px;
+        
+        
+    }
+
+
+    .navbtn{
+        display: none;
+    }
+
+    .hero h1{
+        margin-left: 0px;
+        padding: 60px 40px  25px;
+        font-size:27px;
+        font-weight: 600;
+        font-family: Lora;
+        text-align: center;
+        
+    }
+
+    .hero p{
+        margin-left: 0px;
+        font-family: Open Sans;
+        font-size:14px;
+        font-weight: 600;
+        text-align: center;
+        padding: 0px 25px 25px;
+        position: relative;
+        bottom: 15px;
+    }
+
+    .hero button{
+        background-color:#6D1830 ;
+        color: white;
+        height: 50px;
+        border-radius: 4px;
+        width: 40%;
+        position: absolute;
+        margin: auto;
+        left: 110px;
+    }
+
+    .hero .imgrate{
+        margin-left: 0px;
+        width: 10%;
+        padding: 50px 70px;
+        
+    } 
+    
+     .hero .img1{
+     position: relative;
+    margin-left: 200px;
+    bottom: 75px;
+    width: 120%;
+    right: 0px;
+    }
+
+
+
+
+    .Group11 img{
+        margin-left: 0px;
+        position: absolute;
+        width: 324.9px;
+        height: 306.82px;
+        top: 500px;
+        left: 20px;
+
+        
+     
+     
+     
+     }
+     .main1 h4{
+        margin-left: 10vh;
+        font-size: 14px;
+        padding: 10px 55px;
+        font-weight: 700;
+        padding-top: 100px;
+    }
+
+    .main1 img{
+        margin-left: 25px;
+        font-size: 14px;
+        width: 325px;
+    }
+
+
+    .main2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .main2 img{
+        width: 350px;
+        height: 400px;
+        left: 10px;
+        margin-left: 0px;
+        margin-top: 0px;
+        position: relative;
+        
+        
+    
+
+    }
+    .main2 h1{
+        font-family: Lora;
+        margin-top: 0px;
+        margin-left: 0px;
+        font-weight: 600;
+        font-size: 21px;
+        padding: 30px 30px;
+        text-align: unset;
+    
+    
+    }
+    
+    .cap{
+        font-family: Lora;
+        margin-left:10px;
+        font-weight: 400 ;
+        font-size: 4vw;
+        text-align: unset;
+        padding: 0px 20px;
+        position: relative;
+        bottom: 30px;
+        
+    
+    }
+}
